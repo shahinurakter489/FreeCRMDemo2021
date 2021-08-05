@@ -15,7 +15,6 @@ public class FreeCRMSupportPageActions {
 
 		this.supportElements = new FreeCRMSupportElements();
 
-		// initElements(WebDriver driver, Object page)
 		PageFactory.initElements(DriverSetUp.chromeDriver, supportElements);
 
 	}
@@ -24,13 +23,11 @@ public class FreeCRMSupportPageActions {
 		DriverSetUp.chromeDriver.get("https://support.cogmento.com/en/collections/1398782-webinars-videos");
 		DriverSetUp.chromeDriver.manage().window().maximize();
 		DriverSetUp.chromeDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-	
-		
-		
+
 	}
 
 	public void clickSupportButton() {
 		supportElements.Support.click();
-		
+
 	}
 }

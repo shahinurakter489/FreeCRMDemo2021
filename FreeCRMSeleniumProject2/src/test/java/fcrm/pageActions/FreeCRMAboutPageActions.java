@@ -15,7 +15,6 @@ public class FreeCRMAboutPageActions {
 
 		this.aboutElements = new FreeCRMAboutElements();
 
-		// initElements(WebDriver driver, Object page)
 		PageFactory.initElements(DriverSetUp.chromeDriver, aboutElements);
 
 	}
@@ -27,7 +26,7 @@ public class FreeCRMAboutPageActions {
 	}
 
 	public void clickAboutButton() {
-	  aboutElements.About.click();
-		
+		aboutElements.About.click();
+
 	}
 }

@@ -1,4 +1,4 @@
-Feature: This is Sign Up feature file
+Feature: This is Free CRM SignUP feature file
 
   @Sanity @Regression
   Scenario: Verify the Sign up page
